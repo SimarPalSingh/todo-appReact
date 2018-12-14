@@ -10,14 +10,16 @@ export default class TodoInput extends React.Component{
     this.handleChange = this.handleChange.bind(this);
     this.addTodo = this.addTodo.bind(this);
   }
+
   handleChange(e) {
     console.log("change here");
   }
+
   addTodo(todo) {
     console.log("TODO: ", todo);
   }
 
-  render(){
+  render() {
     return(
     <div>
       <input type="text" value="" onChange={this.handleChange} />

@@ -1,9 +1,9 @@
 import React from 'react';
 
 export default class Header extends React.Component{
-  render(){
-    return(
+  render() {
+    return (
      <h1>To-do List</h1>
-  )
+    )
   }
 }

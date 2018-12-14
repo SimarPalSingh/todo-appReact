@@ -15,7 +15,6 @@ export default class TodoItem extends React.Component{
      <div className="todoWrapper">
       <button className="removeTodo" onClick={(e)=> this.removeTodo(this.props.id)}>remove</button>{this.props.todo.text}
      </div>
-    
     )
   }
 }
